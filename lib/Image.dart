@@ -1,15 +1,25 @@
+import 'dart:io';
+
 import "package:flutter/material.dart";
 
 class Image extends StatefulWidget {
-  Image({Key? key}) : super(key: key);
+  const Image({Key? key}) : super(key: key);
 
   @override
   State<Image> createState() => _ImageState();
 }
 
 class _ImageState extends State<Image> {
+  File ?_image;
+
+  void getImage() async{
+    
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Center(),
+    );
   }
 }
