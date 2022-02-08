@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import "Image.dart";
 
 void main() {
   runApp(const MaterialApp(
-    home: Image(),
+    home: Immage(),
     debugShowCheckedModeBanner: false,
   ));
 }
-
