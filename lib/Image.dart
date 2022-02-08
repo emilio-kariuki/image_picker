@@ -13,13 +13,15 @@ class _ImmageState extends State<Immage> {
   File ?_image;
 
   void getImage() async{
-
-  }
+    
+    }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(),
+      body: Center(
+        // child: 
+      ),
     );
   }
 }
